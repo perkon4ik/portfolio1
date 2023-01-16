@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+*{
+    font-family:'Roboto';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor:default ;
+}
+body{
+    background-color: #222;
+}
+.form{
+    width: 70%;
+    background-color: #222;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+    margin: 50px auto;
+}
+.form-head{
+    position: relative;
+    height: 50px;
+    background-color: #65daff;
+    color: #fff;
+    text-align: center;
+}
+.btn-back{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    /* padding: 12px 5px; */
+    line-height: 50px;
+}
+.btn-back:hover{
+    background-color: gray;
+}
+.btn-back:active{
+    background-color: black;
+    color: #fff;
+}
+.form-body{
+    padding: 30px;
+    color: #fff;
+}
+.sname,.fname{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    width: 100%;
+    color: #fff;
+    outline: none;
+}
+.nickname-field{
+    padding: 30px;
+}
+.gender{
+    margin-top: 30px;
+
+}
+.male-radio{
+    margin-right: 10px;
+}
+.female-radio{
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.age{
+    margin-right: 10px;
+}
+.input-wrapper{
+    margin: 30px 0;
+}
+.comment{
+    display: block;
+    width: 100%;
+    max-height: 200px;
+    height: 200px;
+    background: none;
+    border: 1px solid #000;
+    resize: none;
+    margin-bottom: 30px;
+    padding: 15px;
+    outline: none;
+    color: #fff;
+}
+.submit{
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 20px 80px;
+    border: none;
+    background: linear-gradient(45deg,#65daff,#70ffcb);
+    outline: none;
+    color: #fff;
+}
+.submit:hover{
+    background: linear-gradient(45deg,#347083,#388065);
+
+}
+.submit:hover:active{
+    background-color: #fff;
+    color: #000;
+
+}
+
+
+@media (max-width:1000px){
+    .form{
+        width: 100%;
+        margin: 0 ;
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="registerbotik.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" class="form">
+        <div class="form-head">
+            <a href="botik.html" class="btn-back">&#9668;</a>
+            <h3 class="form-title">Заявка на вступление</h3>
+        </div>
+        <div class="form-body">
+            <fieldset class="nickname-field">
+                <legend>Your nickname in real life :)</legend>
+                <input type="text" class="fname" placeholder="name" name="fname">
+                <input type="text" class="sname" placeholder="surname" name="sname">
+            </fieldset>
+            <p class="gender">Your gender</p>
+            <div class="input-wrapper">
+                <input type="radio" name="gender" value="male" class="male-radio" id="male-radio">
+                <label for="male-radio">Man</label>
+                <input type="radio" name="gender" value="female" class="female-radio" id="female-radio">
+                <label for="female-radio">Woman</label>
+            </div>
+            <div class="input-wrapper">
+                <input type="checkbox" name="age" value="got18" class="age" id="age">
+                <label for="age">I'm 18</label>
+            </div>
+            <div class="input-wrapper">
+                <label for="game">Your descipline</label>
+                <select name="game" id="game" class="game">
+                    <option value="csgo">CS:GO</option>
+                    <option value="dota2">Dota2</option>
+                    <option value="apexlegends">Apex legends</option>
+                </select>
+            </div>
+            <textarea name="comment" id="comment" placeholder="Comment" class="comment"></textarea>
+            <button class="submit">Send request</button>
+        </div>
+    </form>
+</body>
+
+</html>

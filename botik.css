@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+*{
+    font-family:'Roboto';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #65daff;
+    margin-bottom: 50px;
+}
+.section-text{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+    color: #fff;
+}
+.nav-menu{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #222;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+    line-height: 80px;
+    z-index: 100;
+    /* bottom: 0; */
+}
+.logo{
+    color: #fff;
+    text-decoration: none;
+    font-size:25px;
+
+}
+.navigation{
+    float: right;
+
+}
+.nav-item{
+    font-size:16px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
+    transition: 0.5s;
+
+}
+.nav-item:hover{
+    color: #65daff;
+    text-shadow: 0 0 5px #65daff;
+}
+.site-header{
+    margin-top: 80px;
+    position: relative;
+    height: 80vh;
+    background:url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg) center/cover no-repeat ;
+}
+.header-title{
+    color: #555 ;
+    font-size: 100px;
+    margin-bottom: 50px;
+    font-weight: 900;
+
+}
+.header-sub_title{
+    color: #555;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.header-btn{
+    width: fit-content;
+    display: block;
+    padding:30px 80px;
+    background: linear-gradient(45deg,#65daff,#70ffcb);
+    color: #fff;
+    text-decoration: none;
+
+}
+.header-btn:hover{
+    transform: scale(1.1);
+}
+.header-content{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 30px;
+    width: 50%;
+}
+.about{
+    height: 40vh;
+    text-align: center;
+
+}
+.about-card{
+    margin-top: 100px;
+    display: inline-block;
+    width: 17%;
+    height: 200px;
+    text-align: center;
+    vertical-align: top;
+
+}
+.about-card_img{
+   
+    width: 130px;
+    margin-bottom: 30px;
+
+}
+.about-card_title{
+    font-size: 30px;
+    color:#65daff;
+}
+.games-container{
+    margin-top:100px ;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    padding: 30px 0;
+    text-align: center;
+}
+.games-card{
+    position: relative;
+
+}
+.games-card_content{
+    display: inline-block;
+    width: 49%;
+    min-height: 350px;
+    vertical-align: top;
+    text-align: left;
+    padding: 0 15px;
+
+}
+
+.game-title{
+    margin-top:20px ;
+    font-size: 25px;
+    color: #70ffcb;
+
+}
+.game-divider{
+    width: 130px;
+    border: none;
+    height: 3px;
+    background-color: #70ffcb;
+    margin: 20px 0;
+}
+.games-card_img{
+    display: inline-block;
+    width: 49%;
+    height: 350px;
+    vertical-align: top;
+}
+
+.img1{
+    background: url(img/csgo.jpg) left/cover no-repeat;
+    /* display: inline-block;
+    width: 49%;
+    height: 350px;
+    vertical-align: top; */
+}
+.img2{
+    float: left;
+    background: url(img/dota2.jpg) center/cover no-repeat;
+    /* display: inline-block;
+    width: 49%;
+    height: 350px;
+    vertical-align: top; */
+}
+.game2{
+    text-align: right;
+    padding-left:9px ;
+}
+.img3{
+    background: url(img/apex.jpg) center/cover no-repeat;
+    /* display: inline-block;
+    width: 49%;
+    height: 350px;
+    vertical-align: top; */
+}
+.act{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #65daff;
+    margin: 100px auto 50px;
+
+}
+.acting{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color:#fff;
+    margin-left:auto;
+}
+.join{
+    box-shadow: 0 0 10px black;
+    padding: 1px;
+    margin:0 auto 30px;
+}
+.join-txt{
+    margin: 20px auto 30px;
+
+}
+.hrus{
+    width: 250px;
+    margin: 0 auto;
+    border:solid 2px  #555;
+}
+.click{
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #65daff;
+    width: 94%;
+    height: auto;
+    padding:40px 40px 20px 40px ;
+    text-align: left;
+    margin: 20px 30px 40px;
+}
+.btn-join a{
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    font-size: 20px;
+    color:#fff;
+    padding: 30px;
+    transform: translateY(-30px);;
+}
+.btn-join {
+    padding-top: 7.5px ;
+    text-align: center;
+    float: right;
+    background-color: #000;
+    display: inline-block;
+    width:100px;
+    height:40px;
+    transform: translate(0,-20px);
+
+}
+.click p{
+    font-size:50px;
+    color: #fff;
+    font-weight: 700;
+}
+#menuOn{
+    display: none;
+}
+
+
+@media (max-width:1000px){
+    .nav-menu{
+        height: fit-content;
+        padding: 10px 15px;
+
+    }
+    .navigation{
+        float: none;
+    }
+    .nav-item{
+        display: block;
+        line-height: 50px;
+    }
+    .site-header{
+        height: 100vh;
+        margin-bottom: 200px;
+        background-position-x:-750px ;
+    }
+    .header-content{
+        width: 100%;
+        padding: 0 15px;
+        
+    }
+    .header-title{
+        font-size: 40px;
+        text-shadow: #fff 0px 0px 10px ;
+    }
+    .header-sub_title{
+        font-size: 20px;
+    }
+    .about-card_img{
+        height: 50px;
+        transform: translate(-20%);
+    }
+    .about-card_title{
+        font-size: 14px;
+
+    }
+    .contact-title{
+        margin: 0;
+
+    }
+    .games-card_content{
+        display: block;
+        width: 100%;
+        height: fit-content;
+        min-height: 200px;
+    }
+    .games-card_img{
+        display: block;
+        width: 100%;
+        background-position: center;
+    }
+    .games-card{
+        margin-top: 100px;
+    }
+    .btn-join{
+        float: none;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .click{
+        margin: 0;
+        width: 100%;
+    }
+    #menuOn{
+        display: block;
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        top: 0;
+        right: 50px;
+        padding: 10px;
+        z-index: 999;
+    }
+    .navigation{
+        display: none;
+    }
+    .about-card{
+        margin: 10px;
+    }
+    .join{
+        height: fit-content;
+        padding: 10px 15px;
+    }
+    .hrus{
+        transform: translateY(-20px);
+    }
+    .click{
+        text-align: center;
+    }
+} 

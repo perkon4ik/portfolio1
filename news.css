@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+}
+.header{
+height: 100vh;
+font-family:'Montserrat',sans-serif;
+background-color: #F5F5F5;
+}
+.header-title{
+font-size:140px;
+width:fit-content;
+margin:auto;
+}
+.title{
+color: black;
+position: relative;
+top:150px;
+right:20px;
+z-index:3;
+animation:jump 4s ease 0s infinite;
+}
+.title-blue{
+color: blue;
+opacity: 50%;
+position:relative;
+bottom: 150px;
+left:20px;
+z-index: 1;
+animation:jump 3s ease 0s infinite alternate;
+}
+.title-red{
+color: red;
+opacity: 50%;
+position:relative;
+z-index:2;
+animation:jump 3s ease 0s infinite reverse;
+}
+.header-btn{
+display: block;
+color:white;
+background-color:black;
+width: 300px;
+height: 50px;
+text-decoration:none;
+text-align:center;
+line-height:50px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+z-index:3;
+transition: 0.5s;
+}
+.header-btn-blue{
+background-color:blue;
+width: 300px;
+height: 50px;
+opacity: 50%;
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-60%,-60%);
+z-index:2;
+}
+.header-btn-red{
+	background-color:red;
+width: 300px;
+height: 50px;
+opacity: 50%;
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-40%,-40%);
+z-index:1;
+}
+.header-btn:hover{
+	background-color: white;
+	color:black;
+	border:2px solid black;
+}
+.go-up-btn{
+	padding: 10px 20px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	box-shadow: 0 0 10px #6A5ACD;
+	border-radius: 50px;
+	position:fixed ;
+	bottom:40px;
+	right:40px;
+}
+.articles-container{
+	width: 1000px;
+	padding: 30px;
+	margin:0 auto;
+	box-sizing:border-box;
+}
+.article{
+	font-family: 'Roboto',sans-serif;
+	border:2px solid black;
+	margin-top:100px;
+}
+.article-title{
+	text-align: center;
+	font-size:40px;
+	background-color:#1a1110;
+	text-shadow: 0 0 10px white;
+	padding: 10px;
+	position:sticky;
+	top:0;
+	z-index:10;
+}
+.article-category{
+	font-size: 25px;
+	text-align:center;
+	background-color: #2F4F4F;
+	padding:10px;
+	color:whitesmoke;
+	font-weight:bold;
+}
+.article-img{
+	width:100%;
+	filter:opacity(0.9) brightness(1.1) ;
+	position:sticky;
+	top:0;
+}
+.article-text{
+	padding:20px;
+	background-color:whitesmoke;
+	text-align:justify;
+	position:relative;
+	z-index:9;
+}
+@keyframes jump{
+	0%{
+		transform:translate(0,0);
+
+	}
+	50%{
+		transform: translate(-20px,20px);
+
+	}
+	100%{
+		transform: translate(0,0);
+
+	}
+}
